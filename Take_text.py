@@ -10,7 +10,7 @@
 # for python 3.12.0 and over
 """
 
-__version_info__ = ('1', '0', '0')
+__version_info__ = ('1', '0', '1')
 __version__ = '.'.join(__version_info__)
 __author__ = 'master by Vint'
 __title__ = '--- Take_text ---'
@@ -26,7 +26,7 @@ import errors as err
 import pyperclip
 
 
-ALLOWED_TYPES = ('.txt', '.md', '.svg', '.html', '.css', '.js', '.py', '.ini', '.cmd', '.bat')
+ALLOWED_TYPES = ('.txt', '.md', '.svg', '.html', '.css', '.js', '.py', '.ini', '.cmd', '.bat', '.log')
 
 
 def get_transferred_argument() -> str:
